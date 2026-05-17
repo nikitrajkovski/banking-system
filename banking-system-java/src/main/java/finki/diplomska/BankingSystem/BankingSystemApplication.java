@@ -1,4 +1,4 @@
-package finki.diplomska.banking_system;
+package finki.diplomska.BankingSystem;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BankingSystemApplication {
 
-	public static void main(String[] args) {
+	static void main(String[] args) {
 		SpringApplication.run(BankingSystemApplication.class, args);
 	}
 
